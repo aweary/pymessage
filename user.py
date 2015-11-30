@@ -1,7 +1,11 @@
 import json
 
-
-
+/**
+ * Registers a contact in the `config.json` file
+ * @param {string} user user name
+ * @param {string} type user type
+ * @param {string|number} number phone number
+ */
 
 def register(user, type, number):
     with open('config.json', 'r') as config_file:
